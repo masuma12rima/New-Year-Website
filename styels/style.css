@@ -1,6 +1,6 @@
 body{
     width: 1600px;
-    background: rgb(249, 239, 220);
+    background: aliceblue;
 }
 /* header styles */
 
@@ -13,17 +13,17 @@ header{
     margin: 50px 295px;
 }
 header .ban .ban-title{
-    color: #d2df49;
+    color: #f7f77c;
     text-align: center;
     font-size: 32px;
     padding: 180px 0px 0px 0px;
     font-weight: 100;
     line-height: 1px;
-    font: italic;
+    /* font: italic; */
 }
 header .ban .ban-nxt{
-    color: hsla(192, 79%, 87%, 0.707));
-    font: italic;
+    color: rgb(30, 2, 2);
+    /* font: italic; */
     width: 635px;
     font-size: 72px;
     text-align: center;
@@ -32,16 +32,37 @@ header .ban .ban-nxt{
     margin-top: 2px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.into{
-    width: 1600px;
-height: 7335px;
+.off{
+    display: block;
+    max-width: 800px;
+    min-height: 300px;
+    margin: 200px 0px 300px 550px;
+    background-color: aliceblue;
+    line-height: 3px;
 }
-header .into .off{
-    color: #F00;
+.off h1{
+    color: red;
     text-align: center;
-    font-family: Inter;
     font-size: 88px;
-    font-style: normal;
+    font-weight: 10px;
+    padding-top: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.txt{
+    color: red;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.txt-two{
+    color: black;
+    text-align: center;
+    font-size: 48px;
     font-weight: 700;
-    line-height: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
